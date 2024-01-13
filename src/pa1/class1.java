@@ -13,6 +13,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class class1 {
 	private static WebDriverWait wait=null;
 	static WebDriver driver=null;
+
+	public int a=1;
+
 	static WebElement element=null;
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver","./Browser/chromedriver.exe");
